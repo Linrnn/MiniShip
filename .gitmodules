@@ -1,3 +1,6 @@
 [submodule "Assets/Plugins/Eevee"]
 	path = Assets/Plugins/Eevee
 	url = https://github.com/Linrnn/Eevee.git
+[submodule "Assets/Plugins/YooAsset"]
+	path = Assets/Plugins/YooAsset
+	url = https://github.com/tuyoogame/YooAsset.git
