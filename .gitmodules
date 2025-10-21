@@ -4,3 +4,6 @@
 [submodule "Assets/Plugins/YooAsset"]
 	path = Assets/Plugins/YooAsset
 	url = https://github.com/tuyoogame/YooAsset.git
+[submodule "Assets/Plugins/obfuz"]
+	path = Assets/Plugins/obfuz
+	url = https://github.com/focus-creative-games/obfuz.git
