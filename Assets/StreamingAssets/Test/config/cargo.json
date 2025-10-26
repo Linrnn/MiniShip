@@ -1,0 +1,38 @@
+[
+    {
+        "Type": "CargoCapsule",
+        "Icon": "icon/Capsule.png",
+        "Capacity": 1,
+        "Weight" : 1
+    },
+    {
+        "Type": "CargoCircle",
+        "Icon": "icon/Circle.png",
+        "Capacity": 1,
+        "Weight" : 1
+    },
+    {
+        "Type": "CargoHexagonFlatTop",
+        "Icon": "icon/HexagonFlatTop.png",
+        "Capacity": 1,
+        "Weight" : 1
+    },
+    {
+        "Type": "CargoIsometricDiamond",
+        "Icon": "icon/IsometricDiamond.png",
+        "Capacity": 1,
+        "Weight" : 1
+    },
+    {
+        "Type": "CargoSquare",
+        "Icon": "icon/Square.png",
+        "Capacity": 1,
+        "Weight" : 1
+    },
+    {
+        "Type": "CargoTriangle",
+        "Icon": "icon/Triangle.png",
+        "Capacity": 1,
+        "Weight" : 1
+    }
+]

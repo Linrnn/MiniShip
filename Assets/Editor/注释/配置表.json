@@ -1,0 +1,53 @@
+{
+    "cargo.json": {
+        "Type": "货物类型",
+        "Icon": "货物图标",
+        "Capacity": "货物占用容量",
+        "Weight": "生成货物权重"
+    },
+    "key_value.json": {
+        "Version": "版本号",
+        "PortInterval": "港口生产间隔，单位（分钟）",
+        "PortSpacing": "港口间距，单位（格子）",
+        "PortPressureLimit": "港口压力上限",
+        "PortPressureIncrease": "港口压力增加参数，Interval（单位:分钟）",
+        "PortPressureReduce": "港口压力减少参数，Interval（单位:分钟）",
+        "CargoInterval": "货物生成间隔（单位:分钟）",
+        "CargoCount": "货物生成数量范围",
+        "UpgradeEventInterval": "升级事件间隔（单位:分钟）",
+        "Route": "航线列表，包含颜色信息",
+        "ShipLimit": "每条航线的船只上限"
+    },
+    "port.json": {
+        "Type": "港口类型",
+        "Match": "匹配的货物类型，对应“cargo.json”的“Type”字段",
+        "Icon": "港口图标",
+        "Size": "港口尺寸（单位：格子）",
+        "Weight": "生成港口权重"
+    },
+    "port_capacity_limit_tips.json": {
+        "Scale": "达到该倍数触发提示",
+        "Color": "提示的颜色"
+    },
+    "port_upgrade.json": {
+        "Level": "等级",
+        "CargoCapacity": "货物容量",
+        "ShipCapacity": "船只容量",
+        "LoadingSpeed": "装货速度（个/分钟）",
+        "UnloadingSpeed": "卸货速度（个/分钟）"
+    },
+    "ship.json": {
+        "Type": "船只类型",
+        "Size": "船只尺寸，宽高（单位：格子）",
+        "CargoCapacity": "每个等级的货物容量",
+        "MoveType": "可通行的水域类型，对应“terrain.json”的“Type”字段",
+        "MoveSpeed": "移动速度（单位：格子/分钟）",
+        "Acceleration": "加速度（单位：速度/分钟）",
+        "Deceleration": "减速度（单位：速度/分钟）"
+    },
+    "terrain.json": {
+        "Type": "地形类型",
+        "EditorColor": "map.png中的颜色",
+        "RuntimeColor": "地图实际运行的颜色"
+    }
+}
