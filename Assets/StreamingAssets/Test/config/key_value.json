@@ -8,6 +8,9 @@
     "CargoInterval": 10080,
     "CargoCount": {"Min":0, "Max":2},
     "UpgradeEventInterval": 80640,
+    "UpgradeAwardCandidateCount": 3,
+    "UpgradeAwardCanSelectCount": 1,
     "Route": [[0,255,255],[255,0,255],[255,255,0],[255,0,0],[0,255,0],[0,0,255]],
-    "ShipLimit": 4
+    "ShipLimit": 4,
+    "EventTrigger": {"Interval":10080, "Prob":"0.01"}
 }

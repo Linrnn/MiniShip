@@ -2,42 +2,42 @@
     {
         "Type": "PortCapsule",
         "Match": ["CargoCapsule"],
-        "Icon": "icon/Capsule.png",
+        "Icon": "Capsule",
         "Size": 2,
         "Weight" : 10
     },
     {
         "Type": "PortCircle",
         "Match": ["CargoCircle"],
-        "Icon": "icon/Circle.png",
+        "Icon": "Circle",
         "Size": 2,
         "Weight" : 10
     },
     {
         "Type": "PortHexagonFlatTop",
         "Match": ["CargoHexagonFlatTop"],
-        "Icon": "icon/HexagonFlatTop.png",
+        "Icon": "HexagonFlatTop",
         "Size": 2,
         "Weight" : 10
     },
     {
         "Type": "PortIsometricDiamond",
         "Match": ["CargoIsometricDiamond","CargoCapsule"],
-        "Icon": "icon/IsometricDiamond.png",
+        "Icon": "IsometricDiamond",
         "Size": 2,
         "Weight" : 1
     },
     {
         "Type": "PortSquare",
         "Match": ["CargoSquare","CargoCircle"],
-        "Icon": "icon/Square.png",
+        "Icon": "Square",
         "Size": 2,
         "Weight" : 1
     },
     {
         "Type": "PortTriangle",
         "Match": ["CargoTriangle","HexagonFlatTop"],
-        "Icon": "icon/Triangle.png",
+        "Icon": "Triangle",
         "Size": 2,
         "Weight" : 1
     }

@@ -5,6 +5,8 @@
         "Capacity": "货物占用容量",
         "Weight": "生成货物权重"
     },
+    "event.json": {
+    },
     "key_value.json": {
         "Version": "版本号",
         "PortInterval": "港口生产间隔，单位（分钟）",
@@ -15,8 +17,11 @@
         "CargoInterval": "货物生成间隔（单位:分钟）",
         "CargoCount": "货物生成数量范围",
         "UpgradeEventInterval": "升级事件间隔（单位:分钟）",
+        "UpgradeAwardCandidateCount": "升级奖励候选数量",
+        "UpgradeAwardCanSelectCount": "可选择的升级奖励数",
         "Route": "航线列表，包含颜色信息",
-        "ShipLimit": "每条航线的船只上限"
+        "ShipLimit": "每条航线的船只上限",
+        "EventTrigger": "触发间隔（单位：分钟），触发概率（百分百）"
     },
     "port.json": {
         "Type": "港口类型",
@@ -38,16 +43,31 @@
     },
     "ship.json": {
         "Type": "船只类型",
+        "Name": "船只名称，用于本地化文件中的键",
+        "Icon": "船只图标",
         "Size": "船只尺寸，宽高（单位：格子）",
         "CargoCapacity": "每个等级的货物容量",
         "MoveType": "可通行的水域类型，对应“terrain.json”的“Type”字段",
         "MoveSpeed": "移动速度（单位：格子/分钟）",
         "Acceleration": "加速度（单位：速度/分钟）",
-        "Deceleration": "减速度（单位：速度/分钟）"
+        "Deceleration": "减速度（单位：速度/分钟）",
+        "SpeedAward": "船只给予航线的速度加成（百分比）"
     },
     "terrain.json": {
         "Type": "地形类型",
         "EditorColor": "map.png中的颜色",
         "RuntimeColor": "地图实际运行的颜色"
+    },
+    "upgrade_award.json": {
+        "No": "编号",
+        "Weight": "奖励权重",
+        "Icon": "奖励图标",
+        "Ship": "新增船只类型/数量",
+        "CargoBox": "新增货舱数量",
+        "PortExpansion": "新增扩展港口的机会",
+        "Route": "新增航线数量",
+        "Canal": "新增运河的数量",
+        "Name": "奖励名字，用于本地化文件中的键",
+        "Desc": "奖励描述，用于本地化文件中的键"
     }
 }

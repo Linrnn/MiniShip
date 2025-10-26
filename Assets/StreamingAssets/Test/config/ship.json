@@ -1,29 +1,50 @@
 [
     {
         "Type": "Freighter",
+        "Name": "ship_freighter_name",
+        "Icon": "Freighter",
         "Size": [1,2],
         "CargoCapacity": [6,12,18,24],
         "MoveType": ["ShallowWater","DeepCanal"],
         "MoveSpeed": 0.16,
-        "Acceleration": 0.02,
-        "Deceleration": 0.02
+        "Acceleration": "0.02",
+        "Deceleration": "0.02",
+        "SpeedAward": "0"
     },
     {
         "Type": "Icebreaker",
+        "Name": "ship_icebreaker_name",
+        "Icon": "Freighter",
         "Size": [1,2],
         "CargoCapacity": [6,12,18,24],
         "MoveType": ["DeepWater","PackIce","DeepCanal"],
         "MoveSpeed": 0.16,
-        "Acceleration": 0.02,
-        "Deceleration": 0.02
+        "Acceleration": "0.02",
+        "Deceleration": "0.02",
+        "SpeedAward": "0"
     },
     {
         "Type": "SmallBoat",
+        "Name": "ship_smallBoat_name",
+        "Icon": "Freighter",
         "Size": [1,2],
         "CargoCapacity": [4,8,12,16],
         "MoveType": ["DeepWater","ShallowWater","DeepCanal","ShallowCanal"],
         "MoveSpeed": 0.16,
-        "Acceleration": 0.02,
-        "Deceleration": 0.02
+        "Acceleration": "0.02",
+        "Deceleration": "0.02",
+        "SpeedAward": "0"
+    },
+    {
+        "Type": "FastShip",
+        "Name": "ship_fast_ship_name",
+        "Icon": "FastShip",
+        "Size": [1,2],
+        "CargoCapacity": [],
+        "MoveType": ["DeepWater","ShallowWater","DeepCanal","ShallowCanal"],
+        "MoveSpeed": 0.16,
+        "Acceleration": "0.02",
+        "Deceleration": "0.02",
+        "SpeedAward": "1"
     }
 ]
