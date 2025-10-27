@@ -7,3 +7,6 @@
 [submodule "Assets/Plugins/obfuz"]
 	path = Assets/Plugins/obfuz
 	url = https://github.com/focus-creative-games/obfuz.git
+[submodule "SubModules/luban"]
+	path = SubModules/luban
+	url = https://github.com/focus-creative-games/luban.git
