@@ -1,0 +1,23 @@
+[
+    {
+        "Level": 1,
+        "CargoCapacity": 15,
+        "ShipCapacity": 2,
+        "LoadingSpeed": 504,
+        "UnloadingSpeed": 504
+    },
+    {
+        "Level": 2,
+        "CargoCapacity": 25,
+        "ShipCapacity": 5,
+        "LoadingSpeed": 252,
+        "UnloadingSpeed": 252
+    },
+    {
+        "Level": 3,
+        "CargoCapacity": 40,
+        "ShipCapacity": 10,
+        "LoadingSpeed": 151,
+        "UnloadingSpeed": 151
+    }
+]

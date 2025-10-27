@@ -1,0 +1,37 @@
+[
+    {
+        "Type": "DeepWater",
+        "EditorColor": [112,146,190],
+        "RuntimeColor": [112,146,190]
+    },
+    {
+        "Type": "ShallowWater",
+        "EditorColor": [200,191,231],
+        "RuntimeColor": [200,191,231]
+    },
+    {
+        "Type": "PackIce",
+        "EditorColor": [153,217,234],
+        "RuntimeColor": [153,217,234]
+    },
+    {
+        "Type": "DeepCanal",
+        "EditorColor": [127,127,127],
+        "RuntimeColor": [127,127,127]
+    },
+    {
+        "Type": "ShallowCanal",
+        "EditorColor": [195,195,195],
+        "RuntimeColor": [195,195,195]
+    },
+    {
+        "Type": "Coastline",
+        "EditorColor": [255,201,14],
+        "RuntimeColor": [255,201,14]
+    },
+    {
+        "Type": "Land",
+        "EditorColor": [255,127,39],
+        "RuntimeColor": [255,127,39]
+    }
+]

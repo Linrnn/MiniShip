@@ -1,2 +1,50 @@
 [
+    {
+        "No": 1,
+        "Icon": "Freighter",
+        "ShipSpeed": "-0.5",
+        "LoadingSpeed": "",
+        "UnloadingSpeed": "",
+        "LossCargo": 0,
+        "Duration": 20160,
+        "Weight": 20,
+        "Name": "event_1_name",
+        "Desc": "event_1_desc"
+    },
+    {
+        "No": 2,
+        "Icon": "Freighter",
+        "ShipSpeed": "-1",
+        "LoadingSpeed": "",
+        "UnloadingSpeed": "",
+        "LossCargo": 1,
+        "Duration": 20160,
+        "Weight": 20,
+        "Name": "event_2_name",
+        "Desc": "event_2_desc"
+    },
+    {
+        "No": 3,
+        "Icon": "Freighter",
+        "ShipSpeed": "",
+        "LoadingSpeed": "-1",
+        "UnloadingSpeed": "-1",
+        "LossCargo": 0,
+        "Duration": 20160,
+        "Weight": 20,
+        "Name": "event_3_name",
+        "Desc": "event_3_desc"
+    },
+    {
+        "No": 4,
+        "Icon": "Freighter",
+        "ShipSpeed": "0.5",
+        "LoadingSpeed": "",
+        "UnloadingSpeed": "",
+        "LossCargo": 0,
+        "Duration": 20160,
+        "Weight": 40,
+        "Name": "event_4_name",
+        "Desc": "event_4_desc"
+    }
 ]

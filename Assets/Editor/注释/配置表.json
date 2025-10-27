@@ -6,6 +6,16 @@
         "Weight": "生成货物权重"
     },
     "event.json": {
+        "No": "编号",
+        "Icon": "事件图标",
+        "ShipSpeed": "船只速度（百分百）",
+        "LoadingSpeed": "装货速度（百分百）",
+        "UnloadingSpeed": "卸货速度（百分百）",
+        "LossCargo": "货物损失数量",
+        "Duration": "事件持续时间",
+        "Weight": "事件权重",
+        "Name": "事件名字，用于本地化文件中的键",
+        "Desc": "事件描述，用于本地化文件中的键"
     },
     "key_value.json": {
         "Version": "版本号",
@@ -21,7 +31,9 @@
         "UpgradeAwardCanSelectCount": "可选择的升级奖励数",
         "Route": "航线列表，包含颜色信息",
         "ShipLimit": "每条航线的船只上限",
-        "EventTrigger": "触发间隔（单位：分钟），触发概率（百分百）"
+        "EventInterval": "触发间隔（单位：分钟）",
+        "EventProb": "触发概率（百分百）",
+        "EventDepth": "事件触发区域切割的深度，数字越大区域越小，区域数量越多"
     },
     "port.json": {
         "Type": "港口类型",

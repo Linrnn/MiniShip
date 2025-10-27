@@ -12,7 +12,5 @@
     "UpgradeAwardCanSelectCount": 1,
     "Route": [[0,255,255],[255,0,255],[255,255,0],[255,0,0],[0,255,0],[0,0,255]],
     "ShipLimit": 4,
-    "EventInterval": 10080,
-    "EventProb": "0.01",
-    "EventDepth": 4
+    "EventTrigger": {"Interval":10080, "Prob":"0.01"}
 }

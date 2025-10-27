@@ -16,3 +16,11 @@ award_6_name:獲得+1航綫
 award_6_desc:你獲得了航綫
 award_7_name:獲得+1運河
 award_7_desc:你的航綫獲得運河
+event_1_name:暴風雨
+event_1_desc:船速減半
+event_2_name:海盜襲擊
+event_2_desc:船停滯，貨物損失1個
+event_3_name:港口把關
+event_3_desc:暫停裝卸貨物
+event_4_name:風平浪靜
+event_4_desc:風平浪靜，船體速度增加50%

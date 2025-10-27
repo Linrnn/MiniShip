@@ -16,3 +16,11 @@ award_6_name:获得+1航线
 award_6_desc:你获得了航线
 award_7_name:获得+1运河
 award_7_desc:你的航线获得了运河
+event_1_name:暴风雨
+event_1_desc:船速减半
+event_2_name:海盗袭击
+event_2_desc:船停滞，货物损失1个
+event_3_name:港口罢工
+event_3_desc:暂停装卸货物
+event_4_name:风平浪静
+event_4_desc:风平浪静，船体速度增加50%
