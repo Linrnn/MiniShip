@@ -10,3 +10,6 @@
 [submodule "SubModules/luban"]
 	path = SubModules/luban
 	url = https://github.com/focus-creative-games/luban.git
+[submodule "Assets/Plugins/luban_unity"]
+	path = Assets/Plugins/luban_unity
+	url = https://github.com/focus-creative-games/luban_unity.git
