@@ -1,0 +1,41 @@
+<module name="">
+    <bean name="TypeFixed64" valueType="1" sep="">
+        <var name="number" type="string"/>
+        <mapper target="all" codeTarget="cs-simple-json">
+            <option name="type" value="Eevee.Fixed.Fixed64"/>
+            <option name="constructor" value="TypeConversion.As"/>
+        </mapper>
+    </bean>
+    <bean name="TypeColor" valueType="1" sep=",">
+        <var name="red" type="byte"/>
+        <var name="green" type="byte"/>
+        <var name="blue" type="byte"/>
+        <var name="alpha" type="byte"/>
+        <mapper target="all" codeTarget="cs-simple-json">
+            <option name="type" value="UnityEngine.Color"/>
+            <option name="constructor" value="TypeConversion.As"/>
+        </mapper>
+    </bean>
+    <bean name="TypeTerrainType" valueType="1" sep="">
+        <var name="terrain" type="string"/>
+        <mapper target="all" codeTarget="cs-simple-json">
+            <option name="type" value="cfg.Bean.TerrainType"/>
+            <option name="constructor" value="TypeConversion.As"/>
+        </mapper>
+    </bean>
+    <bean name="TypeTerrainTypes" valueType="1" sep="">
+        <var name="terrains" type="string"/>
+        <mapper target="all" codeTarget="cs-simple-json">
+            <option name="type" value="cfg.Bean.TerrainType"/>
+            <option name="constructor" value="TypeConversion.As"/>
+        </mapper>
+    </bean>
+    <bean name="TypeVector2Int" valueType="1" sep=",">
+        <var name="x" type="int"/>
+        <var name="y" type="int"/>
+        <mapper target="all" codeTarget="cs-simple-json">
+            <option name="type" value="UnityEngine.Vector2Int"/>
+            <option name="constructor" value="TypeConversion.As"/>
+        </mapper>
+    </bean>
+</module>

@@ -1,44 +1,89 @@
 [
-    {
-        "Type": "PortCapsule",
-        "Match": ["CargoCapsule"],
-        "Icon": "Capsule",
-        "Size": 2,
-        "Weight" : 10
+  {
+    "type": "PortCapsule",
+    "match": [
+      {
+        "cargo": "CargoCapsule"
+      }
+    ],
+    "icon": {
+      "path": "Capsule"
     },
-    {
-        "Type": "PortCircle",
-        "Match": ["CargoCircle"],
-        "Icon": "Circle",
-        "Size": 2,
-        "Weight" : 10
+    "size": 2,
+    "weight": 10
+  },
+  {
+    "type": "PortCircle",
+    "match": [
+      {
+        "cargo": "CargoCircle"
+      }
+    ],
+    "icon": {
+      "path": "Circle"
     },
-    {
-        "Type": "PortHexagonFlatTop",
-        "Match": ["CargoHexagonFlatTop"],
-        "Icon": "HexagonFlatTop",
-        "Size": 2,
-        "Weight" : 10
+    "size": 2,
+    "weight": 10
+  },
+  {
+    "type": "PortHexagonFlatTop",
+    "match": [
+      {
+        "cargo": "CargoHexagonFlatTop"
+      }
+    ],
+    "icon": {
+      "path": "HexagonFlatTop"
     },
-    {
-        "Type": "PortIsometricDiamond",
-        "Match": ["CargoIsometricDiamond","CargoCapsule"],
-        "Icon": "IsometricDiamond",
-        "Size": 2,
-        "Weight" : 1
+    "size": 2,
+    "weight": 10
+  },
+  {
+    "type": "PortIsometricDiamond",
+    "match": [
+      {
+        "cargo": "CargoIsometricDiamond"
+      },
+      {
+        "cargo": "CargoCapsule"
+      }
+    ],
+    "icon": {
+      "path": "IsometricDiamond"
     },
-    {
-        "Type": "PortSquare",
-        "Match": ["CargoSquare","CargoCircle"],
-        "Icon": "Square",
-        "Size": 2,
-        "Weight" : 1
+    "size": 2,
+    "weight": 1
+  },
+  {
+    "type": "PortSquare",
+    "match": [
+      {
+        "cargo": "CargoSquare"
+      },
+      {
+        "cargo": "CargoCircle"
+      }
+    ],
+    "icon": {
+      "path": "Square"
     },
-    {
-        "Type": "PortTriangle",
-        "Match": ["CargoTriangle","HexagonFlatTop"],
-        "Icon": "Triangle",
-        "Size": 2,
-        "Weight" : 1
-    }
+    "size": 2,
+    "weight": 1
+  },
+  {
+    "type": "PortTriangle",
+    "match": [
+      {
+        "cargo": "CargoTriangle"
+      },
+      {
+        "cargo": "HexagonFlatTop"
+      }
+    ],
+    "icon": {
+      "path": "Triangle"
+    },
+    "size": 2,
+    "weight": 1
+  }
 ]

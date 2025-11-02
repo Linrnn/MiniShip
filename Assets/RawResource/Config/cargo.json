@@ -1,38 +1,62 @@
 [
-    {
-        "Type": "CargoCapsule",
-        "Icon": "Capsule",
-        "Capacity": 1,
-        "Weight" : 1
+  {
+    "type": {
+      "cargo": "CargoCapsule"
     },
-    {
-        "Type": "CargoCircle",
-        "Icon": "Circle",
-        "Capacity": 1,
-        "Weight" : 1
+    "icon": {
+      "path": "Capsule"
     },
-    {
-        "Type": "CargoHexagonFlatTop",
-        "Icon": "HexagonFlatTop",
-        "Capacity": 1,
-        "Weight" : 1
+    "capacity": 1,
+    "weight": 1
+  },
+  {
+    "type": {
+      "cargo": "CargoCircle"
     },
-    {
-        "Type": "CargoIsometricDiamond",
-        "Icon": "IsometricDiamond",
-        "Capacity": 1,
-        "Weight" : 1
+    "icon": {
+      "path": "Circle"
     },
-    {
-        "Type": "CargoSquare",
-        "Icon": "Square",
-        "Capacity": 1,
-        "Weight" : 1
+    "capacity": 1,
+    "weight": 1
+  },
+  {
+    "type": {
+      "cargo": "CargoHexagonFlatTop"
     },
-    {
-        "Type": "CargoTriangle",
-        "Icon": "Triangle",
-        "Capacity": 1,
-        "Weight" : 1
-    }
+    "icon": {
+      "path": "HexagonFlatTop"
+    },
+    "capacity": 1,
+    "weight": 1
+  },
+  {
+    "type": {
+      "cargo": "CargoIsometricDiamond"
+    },
+    "icon": {
+      "path": "IsometricDiamond"
+    },
+    "capacity": 1,
+    "weight": 1
+  },
+  {
+    "type": {
+      "cargo": "CargoSquare"
+    },
+    "icon": {
+      "path": "Square"
+    },
+    "capacity": 1,
+    "weight": 1
+  },
+  {
+    "type": {
+      "cargo": "CargoTriangle"
+    },
+    "icon": {
+      "path": "Triangle"
+    },
+    "capacity": 1,
+    "weight": 1
+  }
 ]

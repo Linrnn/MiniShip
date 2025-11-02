@@ -1,37 +1,121 @@
 [
-    {
-        "Type": "DeepWater",
-        "EditorColor": [112,146,190],
-        "RuntimeColor": [112,146,190]
+  {
+    "type": {
+      "terrain": "DeepWater"
     },
-    {
-        "Type": "ShallowWater",
-        "EditorColor": [200,191,231],
-        "RuntimeColor": [200,191,231]
+    "editor_color": {
+      "red": 112,
+      "green": 146,
+      "blue": 190,
+      "alpha": 255
     },
-    {
-        "Type": "PackIce",
-        "EditorColor": [153,217,234],
-        "RuntimeColor": [153,217,234]
-    },
-    {
-        "Type": "DeepCanal",
-        "EditorColor": [127,127,127],
-        "RuntimeColor": [127,127,127]
-    },
-    {
-        "Type": "ShallowCanal",
-        "EditorColor": [195,195,195],
-        "RuntimeColor": [195,195,195]
-    },
-    {
-        "Type": "Coastline",
-        "EditorColor": [255,201,14],
-        "RuntimeColor": [255,201,14]
-    },
-    {
-        "Type": "Land",
-        "EditorColor": [255,127,39],
-        "RuntimeColor": [255,127,39]
+    "runtime_color": {
+      "red": 112,
+      "green": 146,
+      "blue": 190,
+      "alpha": 255
     }
+  },
+  {
+    "type": {
+      "terrain": "ShallowWater"
+    },
+    "editor_color": {
+      "red": 200,
+      "green": 191,
+      "blue": 231,
+      "alpha": 255
+    },
+    "runtime_color": {
+      "red": 200,
+      "green": 191,
+      "blue": 231,
+      "alpha": 255
+    }
+  },
+  {
+    "type": {
+      "terrain": "PackIce"
+    },
+    "editor_color": {
+      "red": 153,
+      "green": 217,
+      "blue": 234,
+      "alpha": 255
+    },
+    "runtime_color": {
+      "red": 153,
+      "green": 217,
+      "blue": 234,
+      "alpha": 255
+    }
+  },
+  {
+    "type": {
+      "terrain": "DeepCanal"
+    },
+    "editor_color": {
+      "red": 127,
+      "green": 127,
+      "blue": 127,
+      "alpha": 255
+    },
+    "runtime_color": {
+      "red": 127,
+      "green": 127,
+      "blue": 127,
+      "alpha": 255
+    }
+  },
+  {
+    "type": {
+      "terrain": "ShallowCanal"
+    },
+    "editor_color": {
+      "red": 195,
+      "green": 195,
+      "blue": 195,
+      "alpha": 255
+    },
+    "runtime_color": {
+      "red": 195,
+      "green": 195,
+      "blue": 195,
+      "alpha": 255
+    }
+  },
+  {
+    "type": {
+      "terrain": "Coastline"
+    },
+    "editor_color": {
+      "red": 255,
+      "green": 201,
+      "blue": 14,
+      "alpha": 255
+    },
+    "runtime_color": {
+      "red": 255,
+      "green": 201,
+      "blue": 14,
+      "alpha": 255
+    }
+  },
+  {
+    "type": {
+      "terrain": "Land"
+    },
+    "editor_color": {
+      "red": 255,
+      "green": 127,
+      "blue": 39,
+      "alpha": 255
+    },
+    "runtime_color": {
+      "red": 255,
+      "green": 127,
+      "blue": 39,
+      "alpha": 255
+    }
+  }
 ]

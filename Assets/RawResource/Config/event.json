@@ -1,2 +1,106 @@
 [
+  {
+    "no": 1,
+    "icon": {
+      "path": "Freighter"
+    },
+    "ship_speed": {
+      "number": "-0.5"
+    },
+    "loading_speed": {
+      "number": "0"
+    },
+    "unloading_speed": {
+      "number": "0"
+    },
+    "loss_cargo": 0,
+    "duration": {
+      "time": 20160
+    },
+    "weight": 20,
+    "name": {
+      "key": "event_1_name"
+    },
+    "desc": {
+      "key": "event_1_desc"
+    }
+  },
+  {
+    "no": 2,
+    "icon": {
+      "path": "Freighter"
+    },
+    "ship_speed": {
+      "number": "-1"
+    },
+    "loading_speed": {
+      "number": "0"
+    },
+    "unloading_speed": {
+      "number": "0"
+    },
+    "loss_cargo": 1,
+    "duration": {
+      "time": 20160
+    },
+    "weight": 20,
+    "name": {
+      "key": "event_2_name"
+    },
+    "desc": {
+      "key": "event_2_desc"
+    }
+  },
+  {
+    "no": 3,
+    "icon": {
+      "path": "Freighter"
+    },
+    "ship_speed": {
+      "number": "0"
+    },
+    "loading_speed": {
+      "number": "-1"
+    },
+    "unloading_speed": {
+      "number": "-1"
+    },
+    "loss_cargo": 0,
+    "duration": {
+      "time": 20160
+    },
+    "weight": 20,
+    "name": {
+      "key": "event_3_name"
+    },
+    "desc": {
+      "key": "event_3_desc"
+    }
+  },
+  {
+    "no": 4,
+    "icon": {
+      "path": "Freighter"
+    },
+    "ship_speed": {
+      "number": "0.5"
+    },
+    "loading_speed": {
+      "number": "0"
+    },
+    "unloading_speed": {
+      "number": "0"
+    },
+    "loss_cargo": 0,
+    "duration": {
+      "time": 20160
+    },
+    "weight": 40,
+    "name": {
+      "key": "event_4_name"
+    },
+    "desc": {
+      "key": "event_4_desc"
+    }
+  }
 ]

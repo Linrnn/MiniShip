@@ -1,0 +1,17 @@
+{
+    "name": "Cfg",
+    "rootNamespace": "Cfg",
+    "references": [
+        "GUID:2a81c6962524d424a8ef5072bd3b0fa0",
+        "GUID:88a86b461976ecd40898ae016dc49b0d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
