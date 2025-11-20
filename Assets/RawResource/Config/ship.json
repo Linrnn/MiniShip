@@ -71,7 +71,7 @@
     "type": {
       "ship": "SmallBoat"
     },
-    "name": "ship_smallBoat_name",
+    "name": "ship_small_boat_name",
     "icon": {
       "path": "Freighter"
     },
