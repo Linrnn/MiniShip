@@ -25,8 +25,8 @@ public sealed partial class Event : Luban.BeanBase
         { if(!_buf["loss_cargo"].IsNumber) { throw new SerializationException(); }  LossCargo = _buf["loss_cargo"]; }
         { if(!_buf["duration"].IsObject) { throw new SerializationException(); }  Duration = global::cfg.Bean.TimeGranularity.DeserializeTimeGranularity(_buf["duration"]);  }
         { if(!_buf["weight"].IsNumber) { throw new SerializationException(); }  Weight = _buf["weight"]; }
-        { if(!_buf["name"].IsObject) { throw new SerializationException(); }  Name = global::cfg.Bean.TextAsset.DeserializeTextAsset(_buf["name"]);  }
-        { if(!_buf["desc"].IsObject) { throw new SerializationException(); }  Desc = global::cfg.Bean.TextAsset.DeserializeTextAsset(_buf["desc"]);  }
+        { if(!_buf["name"].IsString) { throw new SerializationException(); }  Name = _buf["name"]; }
+        { if(!_buf["desc"].IsString) { throw new SerializationException(); }  Desc = _buf["desc"]; }
     }
 
     public static Event DeserializeEvent(JSONNode _buf)
@@ -69,11 +69,11 @@ public sealed partial class Event : Luban.BeanBase
     /// <summary>
     /// 事件名字
     /// </summary>
-    public readonly Bean.TextAsset Name;
+    public readonly string Name;
     /// <summary>
     /// 事件描述
     /// </summary>
-    public readonly Bean.TextAsset Desc;
+    public readonly string Desc;
    
     public const int __ID__ = 828883002;
     public override int GetTypeId() => __ID__;

@@ -3,9 +3,7 @@
     "type": {
       "ship": "Freighter"
     },
-    "name": {
-      "key": "ship_freighter_name"
-    },
+    "name": "ship_freighter_name",
     "icon": {
       "path": "Freighter"
     },
@@ -39,9 +37,7 @@
     "type": {
       "ship": "Icebreaker"
     },
-    "name": {
-      "key": "ship_icebreaker_name"
-    },
+    "name": "ship_icebreaker_name",
     "icon": {
       "path": "Freighter"
     },
@@ -75,9 +71,7 @@
     "type": {
       "ship": "SmallBoat"
     },
-    "name": {
-      "key": "ship_smallBoat_name"
-    },
+    "name": "ship_smallBoat_name",
     "icon": {
       "path": "Freighter"
     },
@@ -111,9 +105,7 @@
     "type": {
       "ship": "FastShip"
     },
-    "name": {
-      "key": "ship_fast_ship_name"
-    },
+    "name": "ship_fast_ship_name",
     "icon": {
       "path": "FastShip"
     },

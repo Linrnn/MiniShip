@@ -25,8 +25,8 @@ public sealed partial class UpgradeAward : Luban.BeanBase
         { if(!_buf["port_expansion_times"].IsNumber) { throw new SerializationException(); }  PortExpansionTimes = _buf["port_expansion_times"]; }
         { if(!_buf["route_num"].IsNumber) { throw new SerializationException(); }  RouteNum = _buf["route_num"]; }
         { if(!_buf["canal_num"].IsNumber) { throw new SerializationException(); }  CanalNum = _buf["canal_num"]; }
-        { if(!_buf["name"].IsObject) { throw new SerializationException(); }  Name = global::cfg.Bean.TextAsset.DeserializeTextAsset(_buf["name"]);  }
-        { if(!_buf["desc"].IsObject) { throw new SerializationException(); }  Desc = global::cfg.Bean.TextAsset.DeserializeTextAsset(_buf["desc"]);  }
+        { if(!_buf["name"].IsString) { throw new SerializationException(); }  Name = _buf["name"]; }
+        { if(!_buf["desc"].IsString) { throw new SerializationException(); }  Desc = _buf["desc"]; }
     }
 
     public static UpgradeAward DeserializeUpgradeAward(JSONNode _buf)
@@ -69,11 +69,11 @@ public sealed partial class UpgradeAward : Luban.BeanBase
     /// <summary>
     /// 奖励名字
     /// </summary>
-    public readonly Bean.TextAsset Name;
+    public readonly string Name;
     /// <summary>
     /// 奖励描述
     /// </summary>
-    public readonly Bean.TextAsset Desc;
+    public readonly string Desc;
    
     public const int __ID__ = 52756481;
     public override int GetTypeId() => __ID__;

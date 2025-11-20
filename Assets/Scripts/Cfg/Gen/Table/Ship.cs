@@ -18,7 +18,7 @@ public sealed partial class Ship : Luban.BeanBase
     public Ship(JSONNode _buf) 
     {
         { if(!_buf["type"].IsObject) { throw new SerializationException(); }  Type = global::cfg.Bean.ShipType.DeserializeShipType(_buf["type"]);  }
-        { if(!_buf["name"].IsObject) { throw new SerializationException(); }  Name = global::cfg.Bean.TextAsset.DeserializeTextAsset(_buf["name"]);  }
+        { if(!_buf["name"].IsString) { throw new SerializationException(); }  Name = _buf["name"]; }
         { if(!_buf["icon"].IsObject) { throw new SerializationException(); }  Icon = global::cfg.Bean.SpriteAsset.DeserializeSpriteAsset(_buf["icon"]);  }
         { if(!_buf["size"].IsObject) { throw new SerializationException(); }  Size = TypeConversion.As(global::cfg.TypeVector2Int.DeserializeTypeVector2Int(_buf["size"]));  }
         { var __json0 = _buf["levels_cargo_capacity"]; if(!__json0.IsArray) { throw new SerializationException(); } int _n0 = __json0.Count; LevelsCargoCapacity = new int[_n0]; int __index0=0; foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  LevelsCargoCapacity[__index0++] = __v0; }   }
@@ -41,7 +41,7 @@ public sealed partial class Ship : Luban.BeanBase
     /// <summary>
     /// 船只名称
     /// </summary>
-    public readonly Bean.TextAsset Name;
+    public readonly string Name;
     /// <summary>
     /// 船只图标
     /// </summary>

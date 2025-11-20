@@ -18,12 +18,8 @@
       "time": 20160
     },
     "weight": 20,
-    "name": {
-      "key": "event_1_name"
-    },
-    "desc": {
-      "key": "event_1_desc"
-    }
+    "name": "event_1_name",
+    "desc": "event_1_desc"
   },
   {
     "no": 2,
@@ -44,12 +40,8 @@
       "time": 20160
     },
     "weight": 20,
-    "name": {
-      "key": "event_2_name"
-    },
-    "desc": {
-      "key": "event_2_desc"
-    }
+    "name": "event_2_name",
+    "desc": "event_2_desc"
   },
   {
     "no": 3,
@@ -70,12 +62,8 @@
       "time": 20160
     },
     "weight": 20,
-    "name": {
-      "key": "event_3_name"
-    },
-    "desc": {
-      "key": "event_3_desc"
-    }
+    "name": "event_3_name",
+    "desc": "event_3_desc"
   },
   {
     "no": 4,
@@ -96,11 +84,7 @@
       "time": 20160
     },
     "weight": 40,
-    "name": {
-      "key": "event_4_name"
-    },
-    "desc": {
-      "key": "event_4_desc"
-    }
+    "name": "event_4_name",
+    "desc": "event_4_desc"
   }
 ]

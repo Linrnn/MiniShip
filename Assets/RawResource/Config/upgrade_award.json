@@ -17,12 +17,8 @@
     "port_expansion_times": 0,
     "route_num": 0,
     "canal_num": 0,
-    "name": {
-      "key": "upgrade_award_1_name"
-    },
-    "desc": {
-      "key": "upgrade_award_1_desc"
-    }
+    "name": "upgrade_award_1_name",
+    "desc": "upgrade_award_1_desc"
   },
   {
     "no": 2,
@@ -42,12 +38,8 @@
     "port_expansion_times": 0,
     "route_num": 0,
     "canal_num": 0,
-    "name": {
-      "key": "upgrade_award_2_name"
-    },
-    "desc": {
-      "key": "upgrade_award_2_desc"
-    }
+    "name": "upgrade_award_2_name",
+    "desc": "upgrade_award_2_desc"
   },
   {
     "no": 3,
@@ -67,12 +59,8 @@
     "port_expansion_times": 0,
     "route_num": 0,
     "canal_num": 0,
-    "name": {
-      "key": "upgrade_award_3_name"
-    },
-    "desc": {
-      "key": "upgrade_award_3_desc"
-    }
+    "name": "upgrade_award_3_name",
+    "desc": "upgrade_award_3_desc"
   },
   {
     "no": 4,
@@ -85,12 +73,8 @@
     "port_expansion_times": 0,
     "route_num": 0,
     "canal_num": 0,
-    "name": {
-      "key": "upgrade_award_4_name"
-    },
-    "desc": {
-      "key": "upgrade_award_4_desc"
-    }
+    "name": "upgrade_award_4_name",
+    "desc": "upgrade_award_4_desc"
   },
   {
     "no": 5,
@@ -103,12 +87,8 @@
     "port_expansion_times": 1,
     "route_num": 0,
     "canal_num": 0,
-    "name": {
-      "key": "upgrade_award_5_name"
-    },
-    "desc": {
-      "key": "upgrade_award_5_desc"
-    }
+    "name": "upgrade_award_5_name",
+    "desc": "upgrade_award_5_desc"
   },
   {
     "no": 6,
@@ -121,12 +101,8 @@
     "port_expansion_times": 0,
     "route_num": 1,
     "canal_num": 0,
-    "name": {
-      "key": "upgrade_award_6_name"
-    },
-    "desc": {
-      "key": "upgrade_award_6_desc"
-    }
+    "name": "upgrade_award_6_name",
+    "desc": "upgrade_award_6_desc"
   },
   {
     "no": 7,
@@ -139,11 +115,7 @@
     "port_expansion_times": 0,
     "route_num": 0,
     "canal_num": 1,
-    "name": {
-      "key": "upgrade_award_7_name"
-    },
-    "desc": {
-      "key": "upgrade_award_7_desc"
-    }
+    "name": "upgrade_award_7_name",
+    "desc": "upgrade_award_7_desc"
   }
 ]

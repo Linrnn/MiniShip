@@ -49,6 +49,14 @@ namespace cfg.Bean
         /// 陆地
         /// </summary>
         Land = 64,
+        /// <summary>
+        /// 潜在深水运河
+        /// </summary>
+        HiddenDeepCanal = 64,
+        /// <summary>
+        /// 潜在浅水运河
+        /// </summary>
+        HiddenShallowCanal = 64,
     }
 
 } 
