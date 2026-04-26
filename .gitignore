@@ -80,3 +80,9 @@ Logs/
 /ExtAssets/EditorAssets/Record
 /ExtAssets/EditorAssets/AOT
 /ExtAssets/SandboxAssets/BeastBattleLogs
+/Bundles
+/BuildRun
+/Assets/StreamingAssets/yoo
+
+/Assets/AssetBundleCollectorSetting.asset
+/Assets/AssetBundleCollectorSetting.asset.meta
