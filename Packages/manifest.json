@@ -2,6 +2,7 @@
   "dependencies": {
     "com.code-philosophy.luban": "https://gitee.com/focus-creative-games/luban_unity.git",
     "com.code-philosophy.obfuz": "https://gitee.com/focus-creative-games/obfuz.git",
+    "com.github-glitchenzo.nugetforunity": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
     "com.tuyoogame.yooasset": "2.3.18",
     "com.unity.adaptiveperformance": "6.0.0",
     "com.unity.collab-proxy": "2.12.4",
@@ -55,7 +56,8 @@
       "name": "package.openupm.com",
       "url": "https://package.openupm.com",
       "scopes": [
-        "com.tuyoogame.yooasset"
+        "com.tuyoogame.yooasset",
+        "com.github-glitchenzo.nugetforunity"
       ]
     }
   ]

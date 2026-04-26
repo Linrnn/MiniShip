@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 893e79989412542409b0f69a80cc5396
+guid: 1ab22070d60d67a4bae3c7a4bf834e8c
 labels:
 - NuGetForUnity
 PluginImporter:
@@ -9,7 +9,7 @@ PluginImporter:
   executionOrder: {}
   defineConstraints: []
   isPreloaded: 0
-  isOverridable: 0
+  isOverridable: 1
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:

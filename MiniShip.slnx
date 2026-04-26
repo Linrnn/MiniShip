@@ -1,6 +1,11 @@
 ﻿<Solution>
+  <Project Path="Obfuz.Editor.csproj" />
   <Project Path="Config.csproj" />
   <Project Path="Eevee.csproj" />
+  <Project Path="Luban.Runtime.csproj" />
+  <Project Path="Obfuz.Runtime.csproj" />
+  <Project Path="NuGetForUnity.csproj" />
+  <Project Path="Luban.Editor.csproj" />
   <Project Path="Assembly-CSharp-firstpass.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
 </Solution>
