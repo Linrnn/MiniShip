@@ -1,15 +1,6 @@
 [submodule "Assets/Plugins/Eevee"]
 	path = Assets/Plugins/Eevee
 	url = https://github.com/Linrnn/Eevee.git
-[submodule "Assets/Plugins/YooAsset"]
-	path = Assets/Plugins/YooAsset
-	url = https://github.com/tuyoogame/YooAsset.git
-[submodule "Assets/Plugins/obfuz"]
-	path = Assets/Plugins/obfuz
-	url = https://github.com/focus-creative-games/obfuz.git
 [submodule "SubModules/luban"]
 	path = SubModules/luban
 	url = https://github.com/focus-creative-games/luban.git
-[submodule "Assets/Plugins/luban_unity"]
-	path = Assets/Plugins/luban_unity
-	url = https://github.com/focus-creative-games/luban_unity.git
