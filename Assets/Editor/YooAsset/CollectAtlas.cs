@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using YooAsset.Editor;
 
-namespace MiniShipEditor
+namespace PE_Editor.YooAsset
 {
     [DisplayName("收集图集")]
     internal sealed class CollectAtlas : IFilterRule

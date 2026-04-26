@@ -1,0 +1,17 @@
+{
+    "name": "PE.Config",
+    "rootNamespace": "Config",
+    "references": [
+        "Luban.Runtime",
+        "Eevee"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

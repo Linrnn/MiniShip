@@ -1,11 +1,12 @@
 {
-    "name": "Config",
-    "rootNamespace": "Config",
+    "name": "PE.Editor",
+    "rootNamespace": "PE_Editor",
     "references": [
-        "GUID:2a81c6962524d424a8ef5072bd3b0fa0",
-        "GUID:88a86b461976ecd40898ae016dc49b0d"
+        "YooAsset.Editor"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
