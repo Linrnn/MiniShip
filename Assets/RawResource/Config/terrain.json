@@ -1,7 +1,7 @@
 [
   {
     "type": {
-      "terrain": "DeepWater"
+      "value": "DeepWater"
     },
     "editor_color": {
       "red": 112,
@@ -18,7 +18,7 @@
   },
   {
     "type": {
-      "terrain": "ShallowWater"
+      "value": "ShallowWater"
     },
     "editor_color": {
       "red": 200,
@@ -35,7 +35,7 @@
   },
   {
     "type": {
-      "terrain": "PackIce"
+      "value": "PackIce"
     },
     "editor_color": {
       "red": 153,
@@ -52,7 +52,7 @@
   },
   {
     "type": {
-      "terrain": "DeepCanal"
+      "value": "DeepCanal"
     },
     "editor_color": {
       "red": 0,
@@ -69,7 +69,7 @@
   },
   {
     "type": {
-      "terrain": "ShallowCanal"
+      "value": "ShallowCanal"
     },
     "editor_color": {
       "red": 0,
@@ -86,7 +86,7 @@
   },
   {
     "type": {
-      "terrain": "Coastline"
+      "value": "Coastline"
     },
     "editor_color": {
       "red": 255,
@@ -103,7 +103,7 @@
   },
   {
     "type": {
-      "terrain": "Land"
+      "value": "Land"
     },
     "editor_color": {
       "red": 255,
@@ -120,7 +120,7 @@
   },
   {
     "type": {
-      "terrain": "HiddenDeepCanal"
+      "value": "HiddenDeepCanal"
     },
     "editor_color": {
       "red": 127,
@@ -137,7 +137,7 @@
   },
   {
     "type": {
-      "terrain": "HiddenShallowCanal"
+      "value": "HiddenShallowCanal"
     },
     "editor_color": {
       "red": 195,

@@ -18,19 +18,19 @@
       24
     ],
     "move_type": {
-      "terrains": "ShallowWater,DeepCanal"
+      "value": "ShallowWater,DeepCanal"
     },
     "move_speed": {
-      "number": "0.16"
+      "value": "0.16"
     },
     "Acceleration": {
-      "number": "0.02"
+      "value": "0.02"
     },
     "Deceleration": {
-      "number": "0.02"
+      "value": "0.02"
     },
     "SpeedAward": {
-      "number": "0"
+      "value": "0"
     }
   },
   {
@@ -52,19 +52,19 @@
       24
     ],
     "move_type": {
-      "terrains": "DeepWater,PackIce,DeepCanal"
+      "value": "DeepWater,PackIce,DeepCanal"
     },
     "move_speed": {
-      "number": "0.16"
+      "value": "0.16"
     },
     "Acceleration": {
-      "number": "0.02"
+      "value": "0.02"
     },
     "Deceleration": {
-      "number": "0.02"
+      "value": "0.02"
     },
     "SpeedAward": {
-      "number": "0"
+      "value": "0"
     }
   },
   {
@@ -86,19 +86,19 @@
       16
     ],
     "move_type": {
-      "terrains": "DeepWater,ShallowWater,DeepCanal,ShallowCanal"
+      "value": "DeepWater,ShallowWater,DeepCanal,ShallowCanal"
     },
     "move_speed": {
-      "number": "0.24"
+      "value": "0.24"
     },
     "Acceleration": {
-      "number": "0.03"
+      "value": "0.03"
     },
     "Deceleration": {
-      "number": "0.03"
+      "value": "0.03"
     },
     "SpeedAward": {
-      "number": "0"
+      "value": "0"
     }
   },
   {
@@ -115,19 +115,19 @@
     },
     "levels_cargo_capacity": [],
     "move_type": {
-      "terrains": "DeepWater,ShallowWater,DeepCanal,ShallowCanal"
+      "value": "DeepWater,ShallowWater,DeepCanal,ShallowCanal"
     },
     "move_speed": {
-      "number": "0.16"
+      "value": "0.16"
     },
     "Acceleration": {
-      "number": "0.02"
+      "value": "0.02"
     },
     "Deceleration": {
-      "number": "0.02"
+      "value": "0.02"
     },
     "SpeedAward": {
-      "number": "1"
+      "value": "1"
     }
   }
 ]

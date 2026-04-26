@@ -73,7 +73,7 @@
       "time": 10080
     },
     "event_prob": {
-      "number": "0.01"
+      "value": "0.01"
     },
     "event_depth": 4
   }

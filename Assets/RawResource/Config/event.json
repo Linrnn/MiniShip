@@ -5,13 +5,13 @@
       "path": "Freighter"
     },
     "ship_speed": {
-      "number": "-0.5"
+      "value": "-0.5"
     },
     "loading_speed": {
-      "number": "0"
+      "value": "0"
     },
     "unloading_speed": {
-      "number": "0"
+      "value": "0"
     },
     "loss_cargo": 0,
     "duration": {
@@ -27,13 +27,13 @@
       "path": "Freighter"
     },
     "ship_speed": {
-      "number": "-1"
+      "value": "-1"
     },
     "loading_speed": {
-      "number": "0"
+      "value": "0"
     },
     "unloading_speed": {
-      "number": "0"
+      "value": "0"
     },
     "loss_cargo": 1,
     "duration": {
@@ -49,13 +49,13 @@
       "path": "Freighter"
     },
     "ship_speed": {
-      "number": "0"
+      "value": "0"
     },
     "loading_speed": {
-      "number": "-1"
+      "value": "-1"
     },
     "unloading_speed": {
-      "number": "-1"
+      "value": "-1"
     },
     "loss_cargo": 0,
     "duration": {
@@ -71,13 +71,13 @@
       "path": "Freighter"
     },
     "ship_speed": {
-      "number": "0.5"
+      "value": "0.5"
     },
     "loading_speed": {
-      "number": "0"
+      "value": "0"
     },
     "unloading_speed": {
-      "number": "0"
+      "value": "0"
     },
     "loss_cargo": 0,
     "duration": {

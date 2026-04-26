@@ -3,8 +3,8 @@ REM set WORKSPACE=..\..
 set LUBAN_DLL=%cd%\SubModules\luban\src\Luban\bin\Debug\net8.0\Luban.dll
 set LUBAN_CONF=%cd%\Tools\Luban\gen.cfg
 set OUTPUT_DATA=%cd%\Assets\RawResource\Config
-set OUTPUT_CODE=%cd%\Assets\Scripts\Cfg\Gen
-set INPUT_LANG=%cd%\Tools\Luban\lang@__table__.xlsx
+set OUTPUT_CODE=%cd%\Assets\Scripts\Config\Gen
+set INPUT_LANG=%cd%\Tools\Luban\Datas\lang@__table__.xlsx
 
 dotnet %LUBAN_DLL% ^
     -t all ^
